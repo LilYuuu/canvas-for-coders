@@ -7,6 +7,7 @@ export default defineConfig({
   },
   root: resolve(__dirname, "src"),
   publicDir: resolve(__dirname, "public"),
+  base: "canvas-for-coders-final",
   build: {
     outDir: "../dist",
   },
